@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.home-page {
+  display: grid;
+  width: 50%;
+  margin: 2rem auto;
+}
+@media screen and (max-width: 760px) {
+  .home-page {
+    width: 90%;
+  }
+}
+.blog-title {
+  text-align: center;
+  margin: 1rem 1rem;
+}
+.link-button {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.blog-btn {
+  margin-top: 2rem;
+  text-align: center;
+  
+}
+.edit-n-delete{
+  display: flex;
+  gap: 0 1rem ;
+  margin: 1rem 0;
+}
+
+.delete-edit-btn {
+  width: 5rem;
+  background-color: #5e30b3;
+  color: #fff;
+  padding: 0.4rem 0.6rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+}
